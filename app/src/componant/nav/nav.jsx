@@ -5,7 +5,7 @@ import logo from "../nav/logo.png";
 import {SearchOutlined,BellFilled} from '@ant-design/icons';
 
 
-function Nav(){
+function Nav(props){
 
     const [loading,setLoading] = useState(false);
 
@@ -28,6 +28,7 @@ return(
 
     <div className="navbar flex bg-black h-20 items-center">
         
+    
         <img src={logo} alt="" className="h-10 ml-10" />
         <div className="navbar-list ml-12">
 
@@ -47,13 +48,15 @@ return(
 
             <Button type="primary"shape="circle" className="!bg-red-700 !border-red-700" icon={<BellFilled/>}></Button>
 
-            <Button type="primary" className="!bg-red-700">Subscribe Now</Button>
+            <Button type="primary" className="!bg-red-700 font-semibold">Subscribe Now</Button>
 
         </div>
        
 
         
     </div>
+
+    <h1>{props.ele}</h1>
 
 </>
 
