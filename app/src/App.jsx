@@ -1,22 +1,18 @@
-import { useEffect, useState } from 'react'
-import {Button} from "antd"
-import {SearchOutlined} from "@ant-design/icons";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from './componant/nav/nav';
-
-import './App.css'
+import Home from './componant/Home/homes/homes';
+import { homeData } from "../src/dumy.jsx"; // Ensure this path is correct
+import './App.css';
 
 function App() {
-
   return (
-    <>
-
-    <Nav></Nav>
-
-
-   
-    </>
-  )
+    <BrowserRouter>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home ele={{ homeData }} />} /> {/* Pass homeData wrapped in an object */}
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
