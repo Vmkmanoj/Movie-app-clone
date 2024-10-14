@@ -2,7 +2,7 @@ export const homeData = [
     {
       id: 1,
       name: "Sand Dust",
-      rating: 4.7,
+      rating: 4.7+"(Imdb)",
       time: "2hr : 22mins",
       desc: "Sand and dust storms (SDS), also known as sirocco, haboob, yellow dust, white storms, and the harmattan, are a natural phenomenon linked with land and water management and climate change.",
       starring: "Karen Gilchrist, James Earl Jones",
@@ -15,7 +15,7 @@ export const homeData = [
     {
       id: 2,
       name: "skull island",
-      rating: 4.6,
+      rating: 4.6+"(Imdb)",
       time: "2hr : 22mins",
       desc: "The island, like its inhabitants, is wholly fictional. Kong's island home in the Pacific makes its first appearance, along with Kong himself, in the 1933 film King Kong. ",
       starring: "Brenda Chapman, Jeff Nathanson",
@@ -28,7 +28,7 @@ export const homeData = [
     {
       id: 3,
       name: "Pirates Sea",
-      rating: 4.8,
+      rating: 4.8+"(Imdb)",
       time: "2hr : 22mins",
       desc: "Piracy is an act of robbery or criminal violence by ship or boat-borne attackers upon another ship or a coastal area, typically with the goal of stealing cargo and other valuable items or properties. ",
       starring: "James Chinlund, Jeff Nathanson",
@@ -41,7 +41,7 @@ export const homeData = [
     {
       id: 4,
       name: "Showdo",
-      rating: 4.9,
+      rating: 4.9+"(Imdb)",
       time: "2hr : 22mins",
       desc: "Sand and dust storms (SDS), also known as sirocco, haboob, yellow dust, white storms, and the harmattan, are a natural phenomenon linked with land and water management and climate change.",
       starring: "Karen Gilchrist, James Earl Jones",
