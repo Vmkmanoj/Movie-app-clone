@@ -1,0 +1,58 @@
+.homes-container {
+    position: relative;
+    /* margin-bottom: 30px; */
+    margin-top: -80px;
+    z-index: 0;
+    text-align: center;
+    overflow: hidden; /* Hide overflowing items */
+  }
+  
+  .slideshow-container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 850px; /* Set a fixed height for your slideshow */
+  }
+  
+  .slideshow-item {
+    position: absolute; /* Stack items on top of each other */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0; /* Hide by default */
+    transition: opacity 0.5s ease-in-out; /* Fade transition */
+    display: flex; /* Use flexbox for centering details */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .slideshow-item.active {
+    opacity: 1; /* Show active image */
+  }
+  
+  .slideshow-image {
+    width: 100%;
+    height: 900px;
+    
+  }
+  
+  .item-details {
+    position: absolute; /* Position details over the image */
+    z-index: 1; /* Ensure text is above images */
+    color: white; /* Change text color to white for visibility */
+    padding: 20px; /* Add some padding around the text */
+  }
+  
+  .navigation-buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .navigation-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  

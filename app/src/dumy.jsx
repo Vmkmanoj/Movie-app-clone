@@ -40,7 +40,7 @@ export const homeData = [
     },
     {
       id: 4,
-      name: "Sand Dust",
+      name: "Showdo",
       rating: 4.9,
       time: "2hr : 22mins",
       desc: "Sand and dust storms (SDS), also known as sirocco, haboob, yellow dust, white storms, and the harmattan, are a natural phenomenon linked with land and water management and climate change.",

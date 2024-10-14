@@ -9,7 +9,7 @@ function Nav(props) {
 
 
   return (
-    <div className="navbar flex bg-black h-20 items-center">
+    <div className="navbar flex navbar h-20 items-center">
       <img src={logo} alt="Website Logo" className="h-10 ml-10" />
       
       <div className="navbar-list ml-12">
