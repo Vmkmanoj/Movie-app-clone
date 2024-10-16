@@ -4,6 +4,7 @@ import { SearchOutlined, BellFilled } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import "../nav/nav.css";
 import logo from "../nav/logo.png";
+import { useLocale } from "antd/es/locale";
 
 function Nav(props) {
 
@@ -13,7 +14,8 @@ function Nav(props) {
       <img src={logo} alt="Website Logo" className="h-10 ml-10" />
       
       <div className="navbar-list ml-12">
-        <ul className="flex gap-10 text-white justify-center ml-10 font-semibold">
+        <ul className="flex grow gap-10 text-white justify-center ml-10 font-semibold">
+          
           <li><Link to="/">Home</Link></li>
           <li><Link to="/page">Page</Link></li>
           <li><Link to="/movies">Movies</Link></li>
@@ -28,6 +30,7 @@ function Nav(props) {
           shape="circle" 
           className="!bg-red-700 !border-red-700" 
           icon={<SearchOutlined />} 
+         onClick={()=>window.location.replace("/movies")}
         />
         <Button 
           type="primary" 

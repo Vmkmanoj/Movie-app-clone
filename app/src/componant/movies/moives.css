@@ -1,0 +1,9 @@
+::placeholder{
+
+    margin-left: 30px;
+    
+
+}
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: red;
+  }
