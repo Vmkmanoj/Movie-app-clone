@@ -1,0 +1,18 @@
+.search::placeholder{
+
+    margin-left: 30px;
+    
+
+}
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: red;
+  }
+
+  .movie-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie-image:hover {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+    cursor: pointer; /* Optional: change cursor to pointer */
+}
