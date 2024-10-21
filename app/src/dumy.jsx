@@ -87,7 +87,7 @@ export const homeData = [
   export const latest = [
     {
       id: 1,
-      cover: "../images/upcome/u6.png",
+      cover: "../images/upcome/u1.jpg",
       name: "King of Jungle",
       time: "2hr : 38mins",
     },
