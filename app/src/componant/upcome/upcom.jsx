@@ -11,7 +11,11 @@ function Upcome(props){
     return(
         <>
 
-      
+        <div className="flex justify-center">
+
+            <h1 className="m-10 text-white text-3xl font-medium">Upcoming Movies</h1>
+
+        </div>
       <div className="flex gap-5 justify-center ">
         {upcome.map((movies,items)=>(
             <div key={items} className="flex gap-7 flex-col mt-10 w-64 ">
