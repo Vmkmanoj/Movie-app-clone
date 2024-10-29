@@ -1,5 +1,5 @@
 import react from "react"
-
+import "../upcome/upcome.css"
 
 
 
@@ -18,9 +18,9 @@ function Upcome(props){
         </div>
       <div className="flex gap-5 justify-center ">
         {upcome.map((movies,items)=>(
-            <div key={items} className="flex gap-7 flex-col mt-10 w-64 ">
+            <div key={items} className="scroll-container">
                     <img src={movies.cover} alt="" className="size-72" />
-                    <div className="flex  flex-col items-center gap-3">
+                    <div className="flex  flex-col items-center gap-3 ">
 
                     <h1> {movies.name}</h1>
 
