@@ -17,6 +17,7 @@ function Upcome(props){
 
         </div>
       <div className="flex gap-5 justify-center ">
+      
         {upcome.map((movies,items)=>(
             <div key={items} className="scroll-container">
                     <img src={movies.cover} alt="" className="size-72" />
